@@ -1,0 +1,98 @@
+body{
+   
+    background-image : url('imagens/img2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+  
+    
+}
+
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#0a4585, #0355ad);
+    border-radius: 15px;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.login input{
+    margin-top: 10px;
+    background-color: #CBD8F7;
+    border: none;
+    height: 45px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 8px;
+    color:#000000
+    
+   
+}
+
+#log{
+    margin-top: 10px;
+    border: none;
+    height: 45px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 8px;
+    color:#CBD8F7
+    
+    
+}
+
+.login img{
+    width: 200px;
+    height: 150;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+input::placeholder{
+    color:#666565;
+    font-size: 14px; 
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: #28a745;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    color:#CBD8F7
+}
+
+a{
+    color:#ebf0fc;
+    text-decoration: none;
+    margin: left 10px;;
+     font-weight: bold;
+
+}
+
+/*PAGINA DOIS ABAIXO */ 
+
